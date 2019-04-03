@@ -8,14 +8,40 @@
 
 #include "Payoff.hpp"
 
+Payoff::Payoff()
+{
+	// Default constructor
+}
+
+Payoff::Payoff(const Payoff& source)
+{
+	// Copy constructor
+}
+
+Payoff::~Payoff()
+{
+	// Destructor
+}
+
+// Operator overloading
+Payoff& Payoff::operator = (const Payoff& source)
+{ // Assignment operator
+	
+	if (this == &source)
+		return *this;
+	
+	return *this;
+}
+
+
 
 // Plain Vanilla Call Payoff
-CallPayoff::CallPayoff():Payoff()
+CallPayoff::CallPayoff()
 {
 	K = 100;
 }
 
-CallPayoff::CallPayoff(double Strike):Payoff()
+CallPayoff::CallPayoff(double Strike)
 {
 	K = Strike;
 }
@@ -52,7 +78,7 @@ double CallPayoff::payoff(double S) const
 }
 
 // Bull Spread Strategy Payoff
-BullSpreadPayoff::BullSpreadPayoff():Payoff()
+BullSpreadPayoff::BullSpreadPayoff()
 {
 	K1 = K2 = 100.0;
 	buyValue = 3.0;
@@ -60,7 +86,7 @@ BullSpreadPayoff::BullSpreadPayoff():Payoff()
 }
 
 BullSpreadPayoff::BullSpreadPayoff(double strike1, double strike2,
-								   double BuyVal, double SellVal):Payoff()
+								   double BuyVal, double SellVal)
 {
 	K1 = strike1;
 	K2 = strike2;

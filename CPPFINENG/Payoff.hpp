@@ -20,9 +20,10 @@ public:
 	
 	Payoff& operator=(const Payoff& source); // assignment operator overloading
 	
-	virtual double payoff(double S) const = 0; // pure virtual function.
+	//virtual double payoff(double Strike); // pure virtual function.
+	
+	virtual ~Payoff();
 };
-
 
 
 // Plain Vanilla Call Payoff
@@ -89,9 +90,5 @@ public:
 	double profit(double S) const;
 	
 };
-
-
-
-
 
 #endif /* Payoff_hpp */

@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		954B6088224CB2B800880CC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B6087224CB2B800880CC0 /* main.cpp */; };
 		954B60902250D92D00880CC0 /* Payoff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B608E2250D92D00880CC0 /* Payoff.cpp */; };
+		954B60962250E23E00880CC0 /* PayoffStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60942250E23E00880CC0 /* PayoffStrategy.cpp */; };
+		954B60992250E93600880CC0 /* MAPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60972250E93600880CC0 /* MAPS.cpp */; };
+		954B609C22511F1A00880CC0 /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B609A22511F1900880CC0 /* Range.cpp */; };
+		954B609F2251205C00880CC0 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B609D2251205C00880CC0 /* Point.cpp */; };
+		954B60A222512F2D00880CC0 /* LineSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60A022512F2D00880CC0 /* LineSegment.cpp */; };
+		954B60A42253985500880CC0 /* SetThing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60A32253985500880CC0 /* SetThing.cpp */; };
+		954B60A722539EF100880CC0 /* PropertyThing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60A522539EF100880CC0 /* PropertyThing.cpp */; };
+		954B60AA2253A0E800880CC0 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60A82253A0E800880CC0 /* Property.cpp */; };
+		954B60AC2253AB5400880CC0 /* RunThisProgram1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60AB2253AB5400880CC0 /* RunThisProgram1.cpp */; };
+		954B60AF2253ADAE00880CC0 /* SimplePropertySet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60AD2253ADAE00880CC0 /* SimplePropertySet.cpp */; };
+		954B60B22253B85400880CC0 /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 954B60B02253B85400880CC0 /* Set.cpp */; };
+		9575D1082253F81600C9FE4A /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1062253F81600C9FE4A /* Array.cpp */; };
+		9575D10B2253F95100C9FE4A /* ArrayStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1092253F95100C9FE4A /* ArrayStructure.cpp */; };
+		9575D10E2253FC2B00C9FE4A /* FullArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D10C2253FC2B00C9FE4A /* FullArray.cpp */; };
+		9575D1112254D53400C9FE4A /* MatrixStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */; };
+		9575D1142254DDAF00C9FE4A /* FullMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +44,36 @@
 		954B6087224CB2B800880CC0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		954B608E2250D92D00880CC0 /* Payoff.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Payoff.cpp; sourceTree = "<group>"; };
 		954B608F2250D92D00880CC0 /* Payoff.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Payoff.hpp; sourceTree = "<group>"; };
+		954B60942250E23E00880CC0 /* PayoffStrategy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayoffStrategy.cpp; sourceTree = "<group>"; };
+		954B60952250E23E00880CC0 /* PayoffStrategy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PayoffStrategy.hpp; sourceTree = "<group>"; };
+		954B60972250E93600880CC0 /* MAPS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MAPS.cpp; sourceTree = "<group>"; };
+		954B60982250E93600880CC0 /* MAPS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MAPS.hpp; sourceTree = "<group>"; };
+		954B609A22511F1900880CC0 /* Range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		954B609B22511F1900880CC0 /* Range.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
+		954B609D2251205C00880CC0 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		954B609E2251205C00880CC0 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		954B60A022512F2D00880CC0 /* LineSegment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LineSegment.cpp; sourceTree = "<group>"; };
+		954B60A122512F2D00880CC0 /* LineSegment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LineSegment.hpp; sourceTree = "<group>"; };
+		954B60A32253985500880CC0 /* SetThing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SetThing.cpp; sourceTree = "<group>"; };
+		954B60A522539EF100880CC0 /* PropertyThing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PropertyThing.cpp; sourceTree = "<group>"; };
+		954B60A622539EF100880CC0 /* PropertyThing.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PropertyThing.hpp; sourceTree = "<group>"; };
+		954B60A82253A0E800880CC0 /* Property.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		954B60A92253A0E800880CC0 /* Property.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Property.hpp; sourceTree = "<group>"; };
+		954B60AB2253AB5400880CC0 /* RunThisProgram1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RunThisProgram1.cpp; sourceTree = "<group>"; };
+		954B60AD2253ADAE00880CC0 /* SimplePropertySet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePropertySet.cpp; sourceTree = "<group>"; };
+		954B60AE2253ADAE00880CC0 /* SimplePropertySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimplePropertySet.hpp; sourceTree = "<group>"; };
+		954B60B02253B85400880CC0 /* Set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Set.cpp; sourceTree = "<group>"; };
+		954B60B12253B85400880CC0 /* Set.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Set.hpp; sourceTree = "<group>"; };
+		9575D1062253F81600C9FE4A /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		9575D1072253F81600C9FE4A /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		9575D1092253F95100C9FE4A /* ArrayStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayStructure.cpp; sourceTree = "<group>"; };
+		9575D10A2253F95100C9FE4A /* ArrayStructure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayStructure.hpp; sourceTree = "<group>"; };
+		9575D10C2253FC2B00C9FE4A /* FullArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullArray.cpp; sourceTree = "<group>"; };
+		9575D10D2253FC2B00C9FE4A /* FullArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullArray.hpp; sourceTree = "<group>"; };
+		9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixStructure.cpp; sourceTree = "<group>"; };
+		9575D1102254D53400C9FE4A /* MatrixStructure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MatrixStructure.hpp; sourceTree = "<group>"; };
+		9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullMatrix.cpp; sourceTree = "<group>"; };
+		9575D1132254DDAF00C9FE4A /* FullMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullMatrix.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				954B6086224CB2B800880CC0 /* CPPFINENG */,
-				954B6085224CB2B800880CC0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,16 +100,56 @@
 				954B6084224CB2B800880CC0 /* CPPFINENG */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		954B6086224CB2B800880CC0 /* CPPFINENG */ = {
 			isa = PBXGroup;
 			children = (
+				9575D1052253F7F000C9FE4A /* Utility */,
 				954B6087224CB2B800880CC0 /* main.cpp */,
+				954B60AD2253ADAE00880CC0 /* SimplePropertySet.cpp */,
+				954B60AE2253ADAE00880CC0 /* SimplePropertySet.hpp */,
+				954B60A522539EF100880CC0 /* PropertyThing.cpp */,
+				954B60A622539EF100880CC0 /* PropertyThing.hpp */,
+				954B60A82253A0E800880CC0 /* Property.cpp */,
+				954B60A92253A0E800880CC0 /* Property.hpp */,
+				954B60AB2253AB5400880CC0 /* RunThisProgram1.cpp */,
+				954B60A32253985500880CC0 /* SetThing.cpp */,
+				954B60B02253B85400880CC0 /* Set.cpp */,
+				954B60B12253B85400880CC0 /* Set.hpp */,
 				954B608E2250D92D00880CC0 /* Payoff.cpp */,
 				954B608F2250D92D00880CC0 /* Payoff.hpp */,
+				954B60942250E23E00880CC0 /* PayoffStrategy.cpp */,
+				954B60952250E23E00880CC0 /* PayoffStrategy.hpp */,
+				954B60972250E93600880CC0 /* MAPS.cpp */,
+				954B60982250E93600880CC0 /* MAPS.hpp */,
+				954B609A22511F1900880CC0 /* Range.cpp */,
+				954B609B22511F1900880CC0 /* Range.hpp */,
+				954B609D2251205C00880CC0 /* Point.cpp */,
+				954B609E2251205C00880CC0 /* Point.hpp */,
+				954B60A022512F2D00880CC0 /* LineSegment.cpp */,
+				954B60A122512F2D00880CC0 /* LineSegment.hpp */,
+				954B6085224CB2B800880CC0 /* Products */,
 			);
 			path = CPPFINENG;
+			sourceTree = "<group>";
+		};
+		9575D1052253F7F000C9FE4A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9575D1062253F81600C9FE4A /* Array.cpp */,
+				9575D1072253F81600C9FE4A /* Array.hpp */,
+				9575D1092253F95100C9FE4A /* ArrayStructure.cpp */,
+				9575D10A2253F95100C9FE4A /* ArrayStructure.hpp */,
+				9575D10C2253FC2B00C9FE4A /* FullArray.cpp */,
+				9575D10D2253FC2B00C9FE4A /* FullArray.hpp */,
+				9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */,
+				9575D1102254D53400C9FE4A /* MatrixStructure.hpp */,
+				9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */,
+				9575D1132254DDAF00C9FE4A /* FullMatrix.hpp */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +208,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9575D10E2253FC2B00C9FE4A /* FullArray.cpp in Sources */,
+				954B60AA2253A0E800880CC0 /* Property.cpp in Sources */,
+				954B60AF2253ADAE00880CC0 /* SimplePropertySet.cpp in Sources */,
+				954B60AC2253AB5400880CC0 /* RunThisProgram1.cpp in Sources */,
+				954B609F2251205C00880CC0 /* Point.cpp in Sources */,
+				9575D10B2253F95100C9FE4A /* ArrayStructure.cpp in Sources */,
 				954B60902250D92D00880CC0 /* Payoff.cpp in Sources */,
+				954B60A222512F2D00880CC0 /* LineSegment.cpp in Sources */,
+				954B60A42253985500880CC0 /* SetThing.cpp in Sources */,
+				954B609C22511F1A00880CC0 /* Range.cpp in Sources */,
 				954B6088224CB2B800880CC0 /* main.cpp in Sources */,
+				9575D1112254D53400C9FE4A /* MatrixStructure.cpp in Sources */,
+				954B60A722539EF100880CC0 /* PropertyThing.cpp in Sources */,
+				9575D1142254DDAF00C9FE4A /* FullMatrix.cpp in Sources */,
+				954B60B22253B85400880CC0 /* Set.cpp in Sources */,
+				954B60992250E93600880CC0 /* MAPS.cpp in Sources */,
+				954B60962250E23E00880CC0 /* PayoffStrategy.cpp in Sources */,
+				9575D1082253F81600C9FE4A /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
