@@ -6,7 +6,7 @@
 //  Copyright © 2019 Minh Thành Nguyễn. All rights reserved.
 //
 
-// TEMPLATE CLASS FOR ARRAY ONE DIMENSION
+// TEMPLATE DERIVED CLASS FOR ARRAY ONE DIMENSION
 #include "FullArray.hpp"
 
 template<class V, class TA>
@@ -35,4 +35,23 @@ template <class V, class TA>
 V& FullArray<V, TA>::operator[] (size_t index)
 {
 	return m_vector[index-1];
+}
+
+template <class V, class TA>
+const V& FullArray<V, TA>::operator[] (size_t index) const
+{
+	return m_vector[index-1];
+}
+
+template<class V, class TA>
+FullArray<V, TA>& FullArray<V, TA>::operator = (const FullArray<V, TA>& source)
+{
+	if(this==&source)
+		return *this;
+	
+	ArrayStructure<V>::operator = (source);
+	
+	m_vector = source.m_vector;
+	
+	return (*this);
 }

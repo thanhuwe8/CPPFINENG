@@ -10,6 +10,8 @@
 
 #include "Property.cpp"
 
+#include "Utility/Array.cpp"
+
 using namespace std;
 
 

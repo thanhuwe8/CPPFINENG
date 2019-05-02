@@ -24,7 +24,9 @@
 		9575D10B2253F95100C9FE4A /* ArrayStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1092253F95100C9FE4A /* ArrayStructure.cpp */; };
 		9575D10E2253FC2B00C9FE4A /* FullArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D10C2253FC2B00C9FE4A /* FullArray.cpp */; };
 		9575D1112254D53400C9FE4A /* MatrixStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */; };
-		9575D1142254DDAF00C9FE4A /* FullMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */; };
+		9575D1142254DDAF00C9FE4A /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1122254DDAF00C9FE4A /* Matrix.cpp */; };
+		9575D1172254EB0500C9FE4A /* FullMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D1152254EB0500C9FE4A /* FullMatrix.cpp */; };
+		9575D11A22550DC200C9FE4A /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9575D11822550DC200C9FE4A /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,8 +74,12 @@
 		9575D10D2253FC2B00C9FE4A /* FullArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullArray.hpp; sourceTree = "<group>"; };
 		9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixStructure.cpp; sourceTree = "<group>"; };
 		9575D1102254D53400C9FE4A /* MatrixStructure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MatrixStructure.hpp; sourceTree = "<group>"; };
-		9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullMatrix.cpp; sourceTree = "<group>"; };
-		9575D1132254DDAF00C9FE4A /* FullMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullMatrix.hpp; sourceTree = "<group>"; };
+		9575D1122254DDAF00C9FE4A /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		9575D1132254DDAF00C9FE4A /* Matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		9575D1152254EB0500C9FE4A /* FullMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullMatrix.cpp; sourceTree = "<group>"; };
+		9575D1162254EB0500C9FE4A /* FullMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullMatrix.hpp; sourceTree = "<group>"; };
+		9575D11822550DC200C9FE4A /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		9575D11922550DC200C9FE4A /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 		954B6086224CB2B800880CC0 /* CPPFINENG */ = {
 			isa = PBXGroup;
 			children = (
+				9575D11B2255235900C9FE4A /* Exercise */,
 				9575D1052253F7F000C9FE4A /* Utility */,
 				954B6087224CB2B800880CC0 /* main.cpp */,
 				954B60AD2253ADAE00880CC0 /* SimplePropertySet.cpp */,
@@ -146,10 +153,21 @@
 				9575D10D2253FC2B00C9FE4A /* FullArray.hpp */,
 				9575D10F2254D53400C9FE4A /* MatrixStructure.cpp */,
 				9575D1102254D53400C9FE4A /* MatrixStructure.hpp */,
-				9575D1122254DDAF00C9FE4A /* FullMatrix.cpp */,
-				9575D1132254DDAF00C9FE4A /* FullMatrix.hpp */,
+				9575D1122254DDAF00C9FE4A /* Matrix.cpp */,
+				9575D1132254DDAF00C9FE4A /* Matrix.hpp */,
+				9575D1152254EB0500C9FE4A /* FullMatrix.cpp */,
+				9575D1162254EB0500C9FE4A /* FullMatrix.hpp */,
+				9575D11822550DC200C9FE4A /* Vector.cpp */,
+				9575D11922550DC200C9FE4A /* Vector.hpp */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		9575D11B2255235900C9FE4A /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +228,7 @@
 			files = (
 				9575D10E2253FC2B00C9FE4A /* FullArray.cpp in Sources */,
 				954B60AA2253A0E800880CC0 /* Property.cpp in Sources */,
+				9575D11A22550DC200C9FE4A /* Vector.cpp in Sources */,
 				954B60AF2253ADAE00880CC0 /* SimplePropertySet.cpp in Sources */,
 				954B60AC2253AB5400880CC0 /* RunThisProgram1.cpp in Sources */,
 				954B609F2251205C00880CC0 /* Point.cpp in Sources */,
@@ -221,7 +240,8 @@
 				954B6088224CB2B800880CC0 /* main.cpp in Sources */,
 				9575D1112254D53400C9FE4A /* MatrixStructure.cpp in Sources */,
 				954B60A722539EF100880CC0 /* PropertyThing.cpp in Sources */,
-				9575D1142254DDAF00C9FE4A /* FullMatrix.cpp in Sources */,
+				9575D1172254EB0500C9FE4A /* FullMatrix.cpp in Sources */,
+				9575D1142254DDAF00C9FE4A /* Matrix.cpp in Sources */,
 				954B60B22253B85400880CC0 /* Set.cpp in Sources */,
 				954B60992250E93600880CC0 /* MAPS.cpp in Sources */,
 				954B60962250E23E00880CC0 /* PayoffStrategy.cpp in Sources */,

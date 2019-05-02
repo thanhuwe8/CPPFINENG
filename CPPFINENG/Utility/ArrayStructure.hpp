@@ -6,6 +6,8 @@
 //  Copyright © 2019 Minh Thành Nguyễn. All rights reserved.
 //
 
+// MOST BASE CLASS FOR ARRAY DATA (ARRAY, VECTOR, MATRIX)
+
 #ifndef ArrayStructure_hpp
 #define ArrayStructure_hpp
 

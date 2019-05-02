@@ -6,6 +6,8 @@
 //  Copyright © 2019 Minh Thành Nguyễn. All rights reserved.
 //
 
+
+// MOST BASE CLASS FOR ARRAY DATA (ARRAY, VECTOR, MATRIX)
 #include "ArrayStructure.hpp"
 
 template<class V>
